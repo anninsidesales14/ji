@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ann株式会社 - 人材業界のリーディングベンチャー</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">ホーム</a></li>
+                <li><a href="#services">サービス</a></li>
+                <li><a href="#about">会社情報</a></li>
+                <li><a href="#contact">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h1>Welcome to Ann株式会社</h1>
+            <p>私たちは人材業界のリーディングベンチャー企業です。</p>
+        </section>
+        <section id="services">
+            <h2>サービス</h2>
+            <p>弊社が提供するサービスについてご紹介します。</p>
+        </section>
+        <section id="about">
+            <h2>会社情報</h2>
+            <p>Ann株式会社の企業情報をご覧ください。</p>
+        </section>
+        <section id="contact">
+            <h2>お問い合わせ</h2>
+            <form>
+                <label for="name">名前:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">メール:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">メッセージ:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">送信</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Ann株式会社. All rights reserved.</p>
+    </footer>
+</body>
+</html>
